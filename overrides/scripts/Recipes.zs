@@ -1,0 +1,22 @@
+recipes.remove(<aroma1997sdimension:portalframe>);
+recipes.remove(<extrautils2:teleporter:1>);
+recipes.remove(<rftoolsdim:dimension_builder>);
+recipes.remove(<bigreactors:reactorcasing>);
+recipes.remove(<bigreactors:reactorcasingcores>);
+recipes.remove(<bigreactors:reactorglass>);
+recipes.remove(<bigreactors:reactorfuelrod>);
+recipes.remove(<bigreactors:reactorpowertaprf>);
+recipes.remove(<bigreactors:reactorcoolantport>);
+recipes.remove(<tp:watering_can>);
+recipes.remove(<tp:watering_can_upgrade>);
+
+recipes.addShapedMirrored(<aroma1997sdimension:portalframe>, [[<ore:ingotEnderium>, <ore:compressed3xCobblestone>, <ore:ingotEnderium>], [<ore:compressed3xCobblestone>, <aroma1997sdimension:portaligniter>, <ore:compressed3xCobblestone>], [<ore:ingotEnderium>, <ore:compressed3xCobblestone>, <ore:ingotEnderium>]]);
+recipes.addShapedMirrored(<extrautils2:teleporter:1>, [[<thermalfoundation:glass:6>, <ore:compressed4xCobblestone>, <thermalfoundation:glass:6>], [<ore:compressed4xCobblestone>, <ore:ingotDemonicMetal>, <ore:compressed4xCobblestone>], [<thermalfoundation:glass:6>, <ore:compressed4xCobblestone>, <thermalfoundation:glass:6>]]);
+recipes.addShapedMirrored(<rftoolsdim:dimension_builder>, [[null, <ore:gaiaIngot>, null], [<ore:ingotManyullyn>, <draconicevolution:chaotic_core>, <ore:ingotManyullyn>], [<ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>, <ore:nuggetDraconiumAwakened>]]);
+recipes.addShapedMirrored(<bigreactors:reactorcasing>, [[<ore:ingotSteel>, <ore:ingotGraphite>, <ore:ingotSteel>], [<ore:ingotYellorium>, <bigreactors:reactorcasingcores>, <ore:ingotYellorium>], [<ore:ingotSteel>, <ore:ingotGraphite>, <ore:ingotSteel>]]);
+recipes.addShapedMirrored(<bigreactors:reactorcasingcores>, [[<ore:ingotSteel>, <ore:ingotGraphite>, <ore:ingotSteel>], [<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotGold>], [<ore:ingotSteel>, <ore:ingotGraphite>, <ore:ingotSteel>]]);
+recipes.addShapedMirrored(<bigreactors:reactorglass>, [[<ore:blockGlassHardened>, <bigreactors:reactorcasing>, <ore:blockGlassHardened>]]);
+recipes.addShapedMirrored(<bigreactors:reactorfuelrod>, [[<ore:ingotSteel>, <ore:ingotGraphite>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotYellorium>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotGraphite>, <ore:ingotSteel>]]);
+recipes.addShapedMirrored(<bigreactors:reactorpowertaprf>, [[<bigreactors:reactorcasing>, <thermaldynamics:duct_0:2>, <bigreactors:reactorcasing>], [<thermaldynamics:duct_0:2>, null, <thermaldynamics:duct_0:2>], [<bigreactors:reactorcasing>, <thermaldynamics:duct_0:2>, <bigreactors:reactorcasing>]]);
+recipes.addShapedMirrored(<bigreactors:reactorcoolantport>, [[<bigreactors:reactorcasing>, null, <bigreactors:reactorcasing>], [<ore:ingotSteel>, <minecraft:bucket>, <ore:ingotSteel>], [<bigreactors:reactorcasing>, <minecraft:piston>, <bigreactors:reactorcasing>]]);
+recipes.addShapedMirrored(<thermalcultivation:watering_can>.withTag({Water: 0, Mode: 0}), [[<ore:stone>, null, null], [<ore:stone>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <ore:stone>], [null, <ore:stone>, null]]);

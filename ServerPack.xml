@@ -14,6 +14,14 @@
 		<!-- import optionals -->
 		<Import url="http://files.mcupdater.com/optional/ServerPack.xml">optional</Import>
 
+        <!-- zip file containing all configs -->
+        <Module id="configs" name="config overrides">
+            <URL>https://raw.githubusercontent.com/allaryin/pack-skyblock/master/overrides.zip</URL>
+            <Required>true</Required>
+            <ModType inRoot="true">Extract</ModType>
+            <MD5>b54c0f59f9f0326fe71c5fc1842afaf8</MD5> <!-- auto:overrides.zip -->
+        </Module>
+
 		<!-- original pack contents -->
 
 		<Module name="actually-additions" id="actually-additions" depends="" side="BOTH">

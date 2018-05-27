@@ -1,0 +1,1 @@
+mods.thermalexpansion.Transposer.addFillRecipe(<mysticalagriculture:crafting:5>, <minecraft:prismarine_shard>, <liquid:platinum> * 100, 2000);
