@@ -654,6 +654,7 @@
 		</Module>
 		<Module name="pams-harvestcraft" id="pams-harvestcraft" depends="" side="BOTH">
 			<Curse project="pams-harvestcraft" file="2560919" type="RELEASE" autoupgrade="false"/>
+			<URL priority='1'>https://files.mcupdater.com/imaginescape.skyblock/mods/pams-harvestcraft.zip</URL>
 			<Size>4366852</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
