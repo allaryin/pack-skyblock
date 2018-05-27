@@ -12,6 +12,9 @@
 		<!-- import optionals -->
 		<Import url="http://files.mcupdater.com/optional/ServerPack.xml">optional</Import>
 
+		<!-- import resource packs -->
+		<Import url="http://files.mcupdater.com/optional/ResourcePack.xml">resource_packs</Import>
+
         <!-- zip file containing all configs -->
         <Module id="configs" name="config overrides">
 			<URL priority='0'>https://files.mcupdater.com/imaginescape.skyblock/overrides.zip</URL>
