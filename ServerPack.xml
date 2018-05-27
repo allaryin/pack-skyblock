@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="is-skyblock" abstract="false" name="IS Skyblock" newsUrl="http://files.mcupdater.com/imaginescape.tk/graphics/6je6lryk.png" iconUrl="http://files.mcupdater.com/imaginescape.tk/graphics/icon.png" version="1.12.2" serverAddress="173.183.120.250" generateList="true" autoConnect="false" revision="2018.0527" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<!-- Original forge rev for pack was rather old:
