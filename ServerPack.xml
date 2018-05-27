@@ -413,6 +413,8 @@ And sail it across the seven seas!</description>
 			<ModType>Regular</ModType>
 			<MD5>935d7501cb058301af121aca2eeb88d9</MD5>
 		</Module>
+<!--
+     DISABLING
 		<Module name="decocraft2" id="decocraft2" depends="" side="BOTH">
 			<Curse project="decocraft2" file="2550090" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -420,6 +422,7 @@ And sail it across the seven seas!</description>
 			<ModType>Regular</ModType>
 			<MD5>0c4492914de0dfac38207cf356bb9f02</MD5>
 		</Module>
+-->
 		<Module name="deep-resonance" id="deep-resonance" depends="" side="BOTH">
 			<Curse project="deep-resonance" file="2514028" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
