@@ -15,16 +15,96 @@
 		<!-- import resource packs -->
 		<Import url="http://files.mcupdater.com/optional/ResourcePack.xml">resource_packs</Import>
 
-	<!-- zip file containing all configs -->
-	<Module id="configs" name="config overrides">
+		<!-- zip file containing all configs -->
+		<Module id="configs" name="config overrides">
 			<URL priority='0'>https://files.mcupdater.com/imaginescape.skyblock/overrides.zip</URL>
-	    <URL priority='1'>https://raw.githubusercontent.com/allaryin/pack-skyblock/master/overrides.zip</URL>
-	    <Required>true</Required>
-	    <ModType inRoot="true">Extract</ModType>
-	    <MD5>b54c0f59f9f0326fe71c5fc1842afaf8</MD5> <!-- auto:overrides.zip -->
-	</Module>
+		    <URL priority='1'>https://raw.githubusercontent.com/allaryin/pack-skyblock/master/overrides.zip</URL>
+		    <Required>true</Required>
+		    <ModType inRoot="true">Extract</ModType>
+		    <MD5>b54c0f59f9f0326fe71c5fc1842afaf8</MD5> <!-- auto:overrides.zip -->
+		</Module>
 
-		<!-- original pack contents -->
+		<!-- additions -->
+
+		<Module name="CoroUtil Library" id="coroutil" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/coroutil/files/2563474/download</URL>
+			<Curse project="coroutil" file="2563474" type="RELEASE" autoupgrade="false"/>
+			<Size>2247366</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8f9be13e7db00a5dee040b151d585a08</MD5>
+			<Meta>
+				<credits>I&apos;d like to thank Coro, Corosauce, and CordonFreeman for making this possible</credits>
+				<description>Collection of systems and helper code for Corosus&apos;s mods</description>
+				<version>1.12.1-1.2.11</version>
+				<url>http://Coros.us/</url>
+				<authors>Corosus</authors>
+			</Meta>
+		</Module>
+		<Module name="Zombie Players" id="zombie_players" depends="coroutil" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/zombie-players/files/2564206/download</URL>
+			<Curse project="zombie-players" file="2564206" type="RELEASE" autoupgrade="false"/>
+			<Size>52549</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f4e63bf2e208f5a2b27191137420cd9e</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Spawns a Zombified Player when a player dies</description>
+				<version>1.12.1-1.1.1</version>
+				<url></url>
+				<authors>Corosus</authors>
+			</Meta>
+		</Module>
+		<Module name="Localized Weather &amp; Storms" id="weather2" depends="coroutil" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/weather-storms-tornadoes/files/2562997/download</URL>
+			<Curse project="weather-storms-tornadoes" file="2562997" type="RELEASE" autoupgrade="false"/>
+			<Size>4539286</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2383e26baa4f5149ec6aab154ca7768c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Localized rain and storms that evolve into deadly tornadoes and others, also some ambience effects</description>
+				<version>1.12.1-2.6.10</version>
+				<url>http://Coros.us/</url>
+				<authors>Corosus</authors>
+			</Meta>
+		</Module>
+
+		<Module name="Ambidextrous" id="ambidextrous" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ambidextrous/files/2433722/download</URL>
+			<Curse project="ambidextrous" file="2433722" type="RELEASE" autoupgrade="false"/>
+			<Size>16919</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7aa88777e93ad4e1303776a8a4f2fd52</MD5>
+			<Meta>
+				<credits>AlgorithmX2</credits>
+				<description>a mod about using two keybinds for each hand.</description>
+				<version>1.2</version>
+				<url>http://minecraft.curseforge.com/projects/ambidextrous</url>
+				<authors>AlgorithmX2</authors>
+			</Meta>
+		</Module>
+
+		<Module name="Pressure Pipes" id="pressure-pipes" depends="bdlib" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/pressure-pipes/files/2476931/download</URL>
+			<Curse project="pressure-pipes" file="2476931" type="RELEASE" autoupgrade="false"/>
+			<Size>1355136</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ba3cc8f060a1fdc13ce429be435d56a8</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.3.1.6</version>
+				<url>htts://bdew.net/</url>
+				<authors>bdew</authors>
+			</Meta>
+		</Module>
+
+		<!-- original pack mods -->
 
 		<Module name="Actually Additions" id="actually-additions" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/actually-additions/files/2560486/download</URL>
@@ -652,7 +732,11 @@
 			<ModType>Regular</ModType>
 			<MD5>f7f53b63a170069eda26486dee15acd2</MD5>
 		</Module>
-		<Module name="pams-harvestcraft" id="pams-harvestcraft" depends="" side="BOTH">
+		<!-- handling rename for now -->
+		<Module id="pams-harvestcraft">
+			<ModType>Remove</ModType>
+		</Module>
+		<Module name="pams-harvestcraft" id="harvestcraft" depends="" side="BOTH">
 			<Curse project="pams-harvestcraft" file="2560919" type="RELEASE" autoupgrade="false"/>
 			<URL priority='1'>https://files.mcupdater.com/imaginescape.skyblock/mods/pams-harvestcraft.zip</URL>
 			<Size>4366852</Size>
