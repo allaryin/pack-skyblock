@@ -383,13 +383,6 @@
 			<ModType>Regular</ModType>
 			<MD5>e83c3f177db7b64da358499181445f8f</MD5>
 		</Module>
-		<Module name="flat-colored-blocks" id="flat-colored-blocks" depends="" side="BOTH">
-			<Curse project="flat-colored-blocks" file="2483466" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>9a42ce9b36f313751355476656a94adb</MD5>
-		</Module>
 		<Module name="flux-networks" id="flux-networks" depends="" side="BOTH">
 			<Curse project="flux-networks" file="2549043" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -768,13 +761,6 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>f0b47545bb11a0663740f1044bcf8ad1</MD5>
-		</Module>
-		<Module name="simple-corn" id="simple-corn" depends="" side="BOTH">
-			<Curse project="simple-corn" file="2514701" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>f3c10d289c5947a03d658ae9248245ad</MD5>
 		</Module>
 		<Module name="solar-flux-reborn" id="solar-flux-reborn" depends="" side="BOTH">
 			<Curse project="solar-flux-reborn" file="2534974" type="RELEASE" autoupgrade="false"/>
