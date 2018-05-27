@@ -208,6 +208,7 @@
 			<ModType>Regular</ModType>
 			<MD5>1e170d73dc846bab5bf0c484c44219ba</MD5>
 		</Module>
+<!-- optional
 		<Module name="client-tweaks" id="client-tweaks" depends="" side="BOTH">
 			<Curse project="client-tweaks" file="2544119" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -215,6 +216,7 @@
 			<ModType>Regular</ModType>
 			<MD5>d25fa68029a9be0f5f99f324ce8b83f3</MD5>
 		</Module>
+-->
 		<Module name="codechicken-lib-1-8" id="codechicken-lib-1-8" depends="" side="BOTH">
 			<Curse project="codechicken-lib-1-8" file="2540351" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
