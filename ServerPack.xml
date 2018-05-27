@@ -765,8 +765,8 @@ And sail it across the seven seas!</description>
 			<MD5>f7f53b63a170069eda26486dee15acd2</MD5>
 		</Module>
 		<!-- handling rename for now -->
-		<Module id="pams-harvestcraft">
-			<ModType>Remove</ModType>
+		<Module name='old-harvestcraft-name' id="pams-harvestcraft">
+			<ModType>Removal</ModType>
 		</Module>
 		<Module name="pams-harvestcraft" id="harvestcraft" depends="" side="BOTH">
 			<Curse project="pams-harvestcraft" file="2560919" type="RELEASE" autoupgrade="false"/>
