@@ -26,12 +26,20 @@
 
 		<!-- original pack contents -->
 
-		<Module name="actually-additions" id="actually-additions" depends="" side="BOTH">
-			<Curse project="actually-additions" file="2542819" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="Actually Additions" id="actually-additions" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/actually-additions/files/2560486/download</URL>
+			<Curse project="actually-additions" file="2560486" type="RELEASE" autoupgrade="false"/>
+			<Size>2882720</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>949a0f9097c4f27de14131226bc9b046</MD5>
+			<MD5>766e259a019cd1d807e04e0331711e75</MD5>
+			<Meta>
+				<credits>Author: Ellpeck; Textures and Models: BootyToast, GlenthorLP, canitzp</credits>
+				<description>Do you want Automation? Wireless Transport? Better Machines? A cup o&apos; Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more!</description>
+				<version>1.12.2-r135</version>
+				<url>http://github.com/Ellpeck/ActuallyAdditions</url>
+				<authors>Ellpeck</authors>
+			</Meta>
 		</Module>
 		<Module name="advanced-generators" id="advanced-generators" depends="" side="BOTH">
 			<Curse project="advanced-generators" file="2516219" type="RELEASE" autoupgrade="false"/>
@@ -538,12 +546,20 @@
 			<ModType>Regular</ModType>
 			<MD5>012494f701a6d80924588816cd904b4c</MD5>
 		</Module>
-		<Module name="mekanism" id="mekanism" depends="" side="BOTH">
-			<Curse project="mekanism" file="2510812" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/mekanism/files/2558683/download</URL>
+			<Curse project="mekanism" file="2558683" type="RELEASE" autoupgrade="false"/>
+			<Size>16020098</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e2608c622fddf3560b6fadb8164736d7</MD5>
+			<MD5>238e100a61f60c9d4f3293d337c541c3</MD5>
+			<Meta>
+				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
+				<description>Energy, Armor, Tools, Weapons, Machines, Magic.</description>
+				<version>1.12.2-9.4.10.345</version>
+				<url></url>
+				<authors>aidancbrady</authors>
+			</Meta>
 		</Module>
 		<Module name="mercurius" id="mercurius" depends="" side="BOTH">
 			<Curse project="mercurius" file="2481890" type="RELEASE" autoupgrade="false"/>
