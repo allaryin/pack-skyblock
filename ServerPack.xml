@@ -15,14 +15,14 @@
 		<!-- import resource packs -->
 		<Import url="http://files.mcupdater.com/optional/ResourcePack.xml">resource_packs</Import>
 
-        <!-- zip file containing all configs -->
-        <Module id="configs" name="config overrides">
+	<!-- zip file containing all configs -->
+	<Module id="configs" name="config overrides">
 			<URL priority='0'>https://files.mcupdater.com/imaginescape.skyblock/overrides.zip</URL>
-            <URL priority='1'>https://raw.githubusercontent.com/allaryin/pack-skyblock/master/overrides.zip</URL>
-            <Required>true</Required>
-            <ModType inRoot="true">Extract</ModType>
-            <MD5>b54c0f59f9f0326fe71c5fc1842afaf8</MD5> <!-- auto:overrides.zip -->
-        </Module>
+	    <URL priority='1'>https://raw.githubusercontent.com/allaryin/pack-skyblock/master/overrides.zip</URL>
+	    <Required>true</Required>
+	    <ModType inRoot="true">Extract</ModType>
+	    <MD5>b54c0f59f9f0326fe71c5fc1842afaf8</MD5> <!-- auto:overrides.zip -->
+	</Module>
 
 		<!-- original pack contents -->
 
@@ -727,12 +727,20 @@
 			<MD5>f7f53b63a170069eda26486dee15acd2</MD5>
 		</Module>
 		<Module name="pams-harvestcraft" id="pams-harvestcraft" depends="" side="BOTH">
-			<Curse project="pams-harvestcraft" file="2545718" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+			<Curse project="pams-harvestcraft" file="2560919" type="RELEASE" autoupgrade="false"/>
+			<Size>4366852</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9e7200fabd4f10d426bef60228572b6d</MD5>
+			<MD5>d99dba2b235767d3098c0f07d7ae9a01</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Expanding minecraft&apos;s food system.</description>
+				<version>1.12a</version>
+				<url>http://minecraft.curseforge.com/members/MatrexsVigil/projects</url>
+				<authors>Pamela Collins</authors>
+			</Meta>
 		</Module>
+
 		<Module name="psi" id="psi" depends="" side="BOTH">
 			<Curse project="psi" file="2499167" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
