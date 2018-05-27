@@ -124,12 +124,20 @@
 			<ModType>Regular</ModType>
 			<MD5>b0a01a56a08a30fba210bb4bfc213b2a</MD5>
 		</Module>
-		<Module name="bibliocraft" id="bibliocraft" depends="" side="BOTH">
-			<Curse project="bibliocraft" file="2456043" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="BiblioCraft" id="bibliocraft" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/bibliocraft/files/2565070/download</URL>
+			<Curse project="bibliocraft" file="2565070" type="RELEASE" autoupgrade="false"/>
+			<Size>5121807</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a3733a86d30d0a3c0ce585e838ea7db1</MD5>
+			<MD5>78093c919714721f8e68c6dd7ba401a2</MD5>
+			<Meta>
+				<credits></credits>
+				<description>BiblioCraft adds fancy storage containers including bookcases, armor stands, potion shelves, regular shelves, tool racks, glass weapon cases, wooden desks and wooden chest labels and now add machines, redstone interactions, and eyeware, fancy lamps and golden lanterns. Also Tables, enchanted plates, map frames, and seats!</description>
+				<version>2.4.4</version>
+				<url>http://www.bibliocraftmod.com</url>
+				<authors>Joseph &apos;Nuchaz&apos; Sinclair</authors>
+			</Meta>
 		</Module>
 		<Module name="binnies-mods" id="binnies-mods" depends="" side="BOTH">
 			<Curse project="binnies-mods" file="2551929" type="RELEASE" autoupgrade="false"/>
