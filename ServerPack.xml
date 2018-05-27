@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="../ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="is-skyblock" abstract="false" name="IS Skyblock" newsUrl="http://files.mcupdater.com/imaginescape.tk/graphics/6je6lryk.png" iconUrl="http://files.mcupdater.com/imaginescape.tk/graphics/icon.png" version="1.12.2" serverAddress="173.183.120.250" generateList="true" autoConnect="false" revision="18.0527.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="is-skyblock" abstract="false" name="IS Skyblock" newsUrl="http://files.mcupdater.com/imaginescape.tk/graphics/6je6lryk.png" iconUrl="http://files.mcupdater.com/imaginescape.tk/graphics/icon.png" version="1.12.2" serverAddress="173.183.120.250" generateList="true" autoConnect="false" revision="18.0527.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
 		<Module name="Minecraft Forge" id="forge-14.23.4.2703" depends="" side="BOTH">
 			<Size>100000</Size>
@@ -101,6 +101,38 @@
 				<version>1.3.1.6</version>
 				<url>htts://bdew.net/</url>
 				<authors>bdew</authors>
+			</Meta>
+		</Module>
+
+		<Module name="Moving World" id="movingworld" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/movingworld/files/2485041/download</URL>
+			<Curse project="movingworld" file="2485041" type="RELEASE" autoupgrade="false"/>
+			<Size>1255887</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9ef54bc4402d703fda1ce74113edad34</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A Library for allowing the movement of collections of blocks and tile entities.</description>
+				<version>1.12-6.342</version>
+				<url></url>
+				<authors>Darkevilmac, Large portions of code based on Archimedes&apos; Ships</authors>
+			</Meta>
+		</Module>
+		<Module name="Davinci&apos;s Vessels" id="davincisvessels" depends="movingworld" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/davincis-vessels/files/2499846/download</URL>
+			<Curse project="davincis-vessels" file="2499846" type="RELEASE" autoupgrade="false"/>
+			<Size>538295</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fd744ba7fbc7647a062ffdd3b3f86bf5</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Craft and create your own ship...
+And sail it across the seven seas!</description>
+				<version>1.12-6.340</version>
+				<url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2364835</url>
+				<authors>darkevilmac (Maintainer), BalkondeurAlpha (Original Author)</authors>
 			</Meta>
 		</Module>
 
