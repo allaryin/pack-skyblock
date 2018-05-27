@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="is-skyblock" abstract="false" name="IS Skyblock" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="false" revision="2018.0527" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<!-- Original forge revfor pack was old:
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.2.2654">forge</Import>-->
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2703">forge</Import>
+		<Module name="Minecraft Forge" id="forge-14.23.4.2703" depends="" side="BOTH">
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Override</ModType>
+		</Module>
+
+		<!-- import optionals -->
+		<Import url="http://files.mcupdater.com/optional/ServerPack.xml">optional</Import>
+
+		<!-- original pack contents -->
+
+		<Module name="actually-additions" id="actually-additions" depends="" side="BOTH">
+			<Curse project="actually-additions" file="2542819" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>949a0f9097c4f27de14131226bc9b046</MD5>
+		</Module>
+		<Module name="advanced-generators" id="advanced-generators" depends="" side="BOTH">
+			<Curse project="advanced-generators" file="2516219" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7873749b116958f22a3af9d66db06a37</MD5>
+		</Module>
+		<Module name="akashic-tome" id="akashic-tome" depends="" side="BOTH">
+			<Curse project="akashic-tome" file="2476494" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e5d6f7aa5bfe8987fcecc57dc2dc512b</MD5>
+		</Module>
+		<Module name="applecore" id="applecore" depends="" side="BOTH">
+			<Curse project="applecore" file="2530884" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b07ddee5ebde78a0f4d8bf770f4c11f8</MD5>
+		</Module>
+		<Module name="appleskin" id="appleskin" depends="" side="BOTH">
+			<Curse project="appleskin" file="2496585" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0e0af1e6f80ea2ee7ecfc2f8f44b897b</MD5>
+		</Module>
+		<Module name="aroma1997core" id="aroma1997core" depends="" side="BOTH">
+			<Curse project="aroma1997core" file="2541341" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b0c42c55bbcd57257bda6b53bc335888</MD5>
+		</Module>
+		<Module name="aroma1997s-dimensional-world" id="aroma1997s-dimensional-world" depends="" side="BOTH">
+			<Curse project="aroma1997s-dimensional-world" file="2440965" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0f6f2f4517b7ff7b15d211664f32a8e1</MD5>
+		</Module>
+		<Module name="autopackager" id="autopackager" depends="" side="BOTH">
+			<Curse project="autopackager" file="2508230" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>435d351b7019ecfb587f6bbfd65b9b0d</MD5>
+		</Module>
+		<Module name="autoreglib" id="autoreglib" depends="" side="BOTH">
+			<Curse project="autoreglib" file="2544276" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b8d401b23a3d6ba892313e21bc47addd</MD5>
+		</Module>
+<!-- optional
+		<Module name="bad-wither-no-cookie-reloaded" id="bad-wither-no-cookie-reloaded" depends="" side="BOTH">
+			<Curse project="bad-wither-no-cookie-reloaded" file="2496777" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b50264029ca6b448026a3922f5131975</MD5>
+		</Module>
+-->
+		<Module name="base" id="base" depends="" side="BOTH">
+			<Curse project="base" file="2544345" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c004b068e06f553661dd03521afc54d3</MD5>
+		</Module>
+		<Module name="baubles" id="baubles" depends="" side="BOTH">
+			<Curse project="baubles" file="2518667" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>944dec4ef3fbfd4d498d94a7047af201</MD5>
+		</Module>
+		<Module name="bdlib" id="bdlib" depends="" side="BOTH">
+			<Curse project="bdlib" file="2518031" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d2b8ba08414ac12737eb5ecbf92a19d9</MD5>
+		</Module>
+		<Module name="better-questing" id="better-questing" depends="" side="BOTH">
+			<Curse project="better-questing" file="2548811" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>01309a35116e979efe03b8e851aa704f</MD5>
+		</Module>
+		<Module name="better-questing-standard-expansion" id="better-questing-standard-expansion" depends="" side="BOTH">
+			<Curse project="better-questing-standard-expansion" file="2544426" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b0a01a56a08a30fba210bb4bfc213b2a</MD5>
+		</Module>
+		<Module name="bibliocraft" id="bibliocraft" depends="" side="BOTH">
+			<Curse project="bibliocraft" file="2456043" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a3733a86d30d0a3c0ce585e838ea7db1</MD5>
+		</Module>
+		<Module name="binnies-mods" id="binnies-mods" depends="" side="BOTH">
+			<Curse project="binnies-mods" file="2551929" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c5194152e7299c1f8f73e8eeb6f71cde</MD5>
+		</Module>
+		<Module name="bookshelf" id="bookshelf" depends="" side="BOTH">
+			<Curse project="bookshelf" file="2550837" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>864725a235e06e0467a0c77bf528da9c</MD5>
+		</Module>
+		<Module name="botania" id="botania" depends="" side="BOTH">
+			<Curse project="botania" file="2524591" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8be68a0e75a7b16c793a696fda1a4c5d</MD5>
+		</Module>
+		<Module name="botania-garden-of-glass" id="botania-garden-of-glass" depends="" side="BOTH">
+			<Curse project="botania-garden-of-glass" file="2391198" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1999d0999ec4786223a7c1d66a171c8a</MD5>
+		</Module>
+		<Module name="brandons-core" id="brandons-core" depends="" side="BOTH">
+			<Curse project="brandons-core" file="2530025" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>134ecd6cd2b047f6eda710c96c847586</MD5>
+		</Module>
+		<Module name="ceramics" id="ceramics" depends="" side="BOTH">
+			<Curse project="ceramics" file="2546862" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8df768fccf808e27ade2ae54177c7700</MD5>
+		</Module>
+		<Module name="chameleon" id="chameleon" depends="" side="BOTH">
+			<Curse project="chameleon" file="2450900" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e42efa8f4fd42d2918128a826b740e98</MD5>
+		</Module>
+		<Module name="chest-transporter" id="chest-transporter" depends="" side="BOTH">
+			<Curse project="chest-transporter" file="2524058" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6f5aadb16a4357aad4b8bc662b76de77</MD5>
+		</Module>
+		<Module name="chisel" id="chisel" depends="" side="BOTH">
+			<Curse project="chisel" file="2535884" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>853c56bd014423e424ecef6db2c1efb1</MD5>
+		</Module>
+		<Module name="chisels-bits" id="chisels-bits" depends="" side="BOTH">
+			<Curse project="chisels-bits" file="2541267" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1e170d73dc846bab5bf0c484c44219ba</MD5>
+		</Module>
+		<Module name="client-tweaks" id="client-tweaks" depends="" side="BOTH">
+			<Curse project="client-tweaks" file="2544119" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d25fa68029a9be0f5f99f324ce8b83f3</MD5>
+		</Module>
+		<Module name="codechicken-lib-1-8" id="codechicken-lib-1-8" depends="" side="BOTH">
+			<Curse project="codechicken-lib-1-8" file="2540351" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>edd6dc7efd8fda77a073aa778d94c2c0</MD5>
+		</Module>
+		<Module name="cofh-world" id="cofh-world" depends="" side="BOTH">
+			<Curse project="cofh-world" file="2513671" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b6bb4654ce07e8842b632fbe327ef5fe</MD5>
+		</Module>
+		<Module name="cofhcore" id="cofhcore" depends="" side="BOTH">
+			<Curse project="cofhcore" file="2549394" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ae5ef20f029fec9d5225d32f502f14b8</MD5>
+		</Module>
+		<Module name="colossal-chests" id="colossal-chests" depends="" side="BOTH">
+			<Curse project="colossal-chests" file="2549059" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e31f59259216dfd24f311711c9785068</MD5>
+		</Module>
+		<Module name="common-capabilities" id="common-capabilities" depends="" side="BOTH">
+			<Curse project="common-capabilities" file="2467504" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8d99dc5e5df88b6be61a3d12a15e9e36</MD5>
+		</Module>
+		<Module name="compact-machines" id="compact-machines" depends="" side="BOTH">
+			<Curse project="compact-machines" file="2530170" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5c0dc22fd4f5836940291861cdd87b6b</MD5>
+		</Module>
+<!-- optional
+		<Module name="controlling" id="controlling" depends="" side="BOTH">
+			<Curse project="controlling" file="2522248" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0d9a0429c72bc1c06358f1166bdd8c59</MD5>
+		</Module>
+-->
+		<Module name="crafttweaker" id="crafttweaker" depends="" side="BOTH">
+			<Curse project="crafttweaker" file="2539947" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f4902745e65c66c5fc107fb000a56308</MD5>
+		</Module>
+		<Module name="ctm" id="ctm" depends="" side="BOTH">
+			<Curse project="ctm" file="2519601" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f67d95bb874571c2b77517654593b23f</MD5>
+		</Module>
+		<Module name="cucumber" id="cucumber" depends="" side="BOTH">
+			<Curse project="cucumber" file="2546515" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>99668c737d4531deecfdf41df20ddb60</MD5>
+		</Module>
+		<Module name="custom-backgrounds" id="custom-backgrounds" depends="" side="BOTH">
+			<Curse project="custom-backgrounds" file="2445809" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b0f20b60bba201bbcf63a6d18cd191db</MD5>
+		</Module>
+		<Module name="custom-main-menu" id="custom-main-menu" depends="" side="BOTH">
+			<Curse project="custom-main-menu" file="2482584" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9b80cdafc4521d124dc87fef9ee3bbcd</MD5>
+		</Module>
+		<Module name="cyclops-core" id="cyclops-core" depends="" side="BOTH">
+			<Curse project="cyclops-core" file="2540388" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>13e9d827d2fb2dcc82a19879270f4de6</MD5>
+		</Module>
+		<Module name="dark-utilities" id="dark-utilities" depends="" side="BOTH">
+			<Curse project="dark-utilities" file="2542685" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>935d7501cb058301af121aca2eeb88d9</MD5>
+		</Module>
+		<Module name="decocraft2" id="decocraft2" depends="" side="BOTH">
+			<Curse project="decocraft2" file="2550090" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0c4492914de0dfac38207cf356bb9f02</MD5>
+		</Module>
+		<Module name="deep-resonance" id="deep-resonance" depends="" side="BOTH">
+			<Curse project="deep-resonance" file="2514028" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a171b1e5cfb9af4fee3ef46ba2d5df45</MD5>
+		</Module>
+		<Module name="default-options" id="default-options" depends="" side="BOTH">
+			<Curse project="default-options" file="2549234" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cd3204703288f67c318b355dc3baf739</MD5>
+		</Module>
+		<Module name="dimensional-edibles" id="dimensional-edibles" depends="" side="BOTH">
+			<Curse project="dimensional-edibles" file="2493912" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dcf6b7de7112e6d084a3a7e76c8850a7</MD5>
+		</Module>
+		<Module name="draconic-evolution" id="draconic-evolution" depends="" side="BOTH">
+			<Curse project="draconic-evolution" file="2535360" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>33cace44df89bc8c80e9dfcaa4446388</MD5>
+		</Module>
+		<Module name="eleccore" id="eleccore" depends="" side="BOTH">
+			<Curse project="eleccore" file="2510914" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ad6b16a7b1f6fdbcf44ff0f99cb5b097</MD5>
+		</Module>
+		<Module name="embers" id="embers" depends="" side="BOTH">
+			<Curse project="embers" file="2495586" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9efd4dc81771e958392be50cfd620068</MD5>
+		</Module>
+		<Module name="ender-io" id="ender-io" depends="" side="BOTH">
+			<Curse project="ender-io" file="2552714" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3ed59e632abaf353165619c4c3768cd1</MD5>
+		</Module>
+		<Module name="endercore" id="endercore" depends="" side="BOTH">
+			<Curse project="endercore" file="2552598" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3c50ec9479f595af8766a704fabd7441</MD5>
+		</Module>
+		<Module name="environmental-tech" id="environmental-tech" depends="" side="BOTH">
+			<Curse project="environmental-tech" file="2546309" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f6cafb05d2480d81a5bbec805c10c2bd</MD5>
+		</Module>
+		<Module name="ex-compressum" id="ex-compressum" depends="" side="BOTH">
+			<Curse project="ex-compressum" file="2543447" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>115f76b514e1612a6b3078d729657d87</MD5>
+		</Module>
+		<Module name="ex-nihilo-creatio" id="ex-nihilo-creatio" depends="" side="BOTH">
+			<Curse project="ex-nihilo-creatio" file="2522838" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1f0f05544343bcf97d4ea20c84b01f03</MD5>
+		</Module>
+		<Module name="extra-utilities" id="extra-utilities" depends="" side="BOTH">
+			<Curse project="extra-utilities" file="2550371" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f74de67942f0bb83bd5e590291238bd5</MD5>
+		</Module>
+		<Module name="extreme-reactors" id="extreme-reactors" depends="" side="BOTH">
+			<Curse project="extreme-reactors" file="2545869" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e83c3f177db7b64da358499181445f8f</MD5>
+		</Module>
+		<Module name="flat-colored-blocks" id="flat-colored-blocks" depends="" side="BOTH">
+			<Curse project="flat-colored-blocks" file="2483466" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9a42ce9b36f313751355476656a94adb</MD5>
+		</Module>
+		<Module name="flux-networks" id="flux-networks" depends="" side="BOTH">
+			<Curse project="flux-networks" file="2549043" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8fb391f692d09f54705d9ce1d9b71dc2</MD5>
+		</Module>
+		<Module name="forestry" id="forestry" depends="" side="BOTH">
+			<Curse project="forestry" file="2552481" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>05fbcde7953cde9973b45e183b4fec88</MD5>
+		</Module>
+		<Module name="ftb-utilities" id="ftb-utilities" depends="" side="BOTH">
+			<Curse project="ftb-utilities" file="2551349" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7db548a8ed87c0db92b04b9b567e144a</MD5>
+		</Module>
+		<Module name="ftblib" id="ftblib" depends="" side="BOTH">
+			<Curse project="ftblib" file="2551149" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9da01e47a7bea1b8521d7e56ec33a4d6</MD5>
+		</Module>
+<!-- optional
+		<Module name="fullscreen-windowed-borderless-for-minecraft" id="fullscreen-windowed-borderless-for-minecraft" depends="" side="BOTH">
+			<Curse project="fullscreen-windowed-borderless-for-minecraft" file="2456007" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c7679200bdf1f6cb71361555407a4c7f</MD5>
+		</Module>
+-->
+		<Module name="gravestone-mod" id="gravestone-mod" depends="" side="BOTH">
+			<Curse project="gravestone-mod" file="2524880" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d20de3163283cffe1620474e15da77d3</MD5>
+		</Module>
+		<Module name="guide-api" id="guide-api" depends="" side="BOTH">
+			<Curse project="guide-api" file="2544043" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e8513d27bb9d9ab00b47dd5065189687</MD5>
+		</Module>
+		<Module name="hammer-core" id="hammer-core" depends="" side="BOTH">
+			<Curse project="hammer-core" file="2551869" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b3d112ad8c8b4455a1637f3390ed1818</MD5>
+		</Module>
+		<Module name="immersive-engineering" id="immersive-engineering" depends="" side="BOTH">
+			<Curse project="immersive-engineering" file="2543992" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d67baa582cf8ddc334d6fa5a4508a57e</MD5>
+		</Module>
+		<Module name="industrial-craft" id="industrial-craft" depends="" side="BOTH">
+			<Curse project="industrial-craft" file="2550518" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>19cf0b6229ced59eaa185f412c73a3a1</MD5>
+		</Module>
+		<Module name="industrial-foregoing" id="industrial-foregoing" depends="" side="BOTH">
+			<Curse project="industrial-foregoing" file="2552425" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>111930d4a1a981fe3039233bcd0abf76</MD5>
+		</Module>
+		<Module name="integrated-dynamics" id="integrated-dynamics" depends="" side="BOTH">
+			<Curse project="integrated-dynamics" file="2549070" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>692037565ffc98c9236ed4b669b6e31c</MD5>
+		</Module>
+		<Module name="integrated-tunnels" id="integrated-tunnels" depends="" side="BOTH">
+			<Curse project="integrated-tunnels" file="2543770" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e99e72083348ce674e9af7809bf5c300</MD5>
+		</Module>
+		<Module name="integration-foregoing" id="integration-foregoing" depends="" side="BOTH">
+			<Curse project="integration-foregoing" file="2546385" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>29d501741b5eb71fbdac9dadffde31f4</MD5>
+		</Module>
+<!-- optional
+		<Module name="inventory-tweaks" id="inventory-tweaks" depends="" side="BOTH">
+			<Curse project="inventory-tweaks" file="2482481" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1e2e33e5710394252abc4b014bc3dcbd</MD5>
+		</Module>
+-->
+		<Module name="iron-backpacks" id="iron-backpacks" depends="" side="BOTH">
+			<Curse project="iron-backpacks" file="2524324" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1dceb5a6a0d818e8b28b4a27f6eb3b9b</MD5>
+		</Module>
+		<Module name="iron-chests" id="iron-chests" depends="" side="BOTH">
+			<Curse project="iron-chests" file="2550378" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ddf5b15f61a4d23afa268cb4f52d96b1</MD5>
+		</Module>
+<!-- optional
+		<Module name="jei" id="jei" depends="" side="BOTH">
+			<Curse project="jei" file="2536307" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>48b89be868a5a18f3963672b623118f7</MD5>
+		</Module>
+		<Module name="jei-bees" id="jei-bees" depends="" side="BOTH">
+			<Curse project="jei-bees" file="2490058" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a4fef0a3bb6d401eb236b3fe3e1a4846</MD5>
+		</Module>
+		<Module name="jei-integration" id="jei-integration" depends="" side="BOTH">
+			<Curse project="jei-integration" file="2491927" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>de73cdc5de95a2685e50d90f01c03a50</MD5>
+		</Module>
+		<Module name="journeymap" id="journeymap" depends="" side="BOTH">
+			<Curse project="journeymap" file="2498312" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b743562dac1b5334c20ac87b54c0b518</MD5>
+		</Module>
+-->
+		<Module name="kleeslabs" id="kleeslabs" depends="" side="BOTH">
+			<Curse project="kleeslabs" file="2545152" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>13fad679e7fce34af355f768c32f03eb</MD5>
+		</Module>
+		<Module name="lockdown" id="lockdown" depends="" side="BOTH">
+			<Curse project="lockdown" file="2477270" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4adb3264e90d8964d6d80b5be02a654f</MD5>
+		</Module>
+		<Module name="long-fall-boots" id="long-fall-boots" depends="" side="BOTH">
+			<Curse project="long-fall-boots" file="2468868" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>97929978be8b6aafd1174e571b36badd</MD5>
+		</Module>
+		<Module name="mantle" id="mantle" depends="" side="BOTH">
+			<Curse project="mantle" file="2550550" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e2cd9d3d5ad2078062c91f9c33fd215c</MD5>
+		</Module>
+		<Module name="mcjtylib" id="mcjtylib" depends="" side="BOTH">
+			<Curse project="mcjtylib" file="2543038" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>da3687481a5f5c8d78be4beb77704c7f</MD5>
+		</Module>
+		<Module name="mcmultipart" id="mcmultipart" depends="" side="BOTH">
+			<Curse project="mcmultipart" file="2511780" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>012494f701a6d80924588816cd904b4c</MD5>
+		</Module>
+		<Module name="mekanism" id="mekanism" depends="" side="BOTH">
+			<Curse project="mekanism" file="2510812" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e2608c622fddf3560b6fadb8164736d7</MD5>
+		</Module>
+		<Module name="mercurius" id="mercurius" depends="" side="BOTH">
+			<Curse project="mercurius" file="2481890" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3d2ff1b3a4dabad1476cec8ede64a33e</MD5>
+		</Module>
+		<Module name="mob-grinding-utils" id="mob-grinding-utils" depends="" side="BOTH">
+			<Curse project="mob-grinding-utils" file="2546803" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>577a8db295cfee4e44c84bbb46bca1a5</MD5>
+		</Module>
+		<Module name="mod-name-tooltip" id="mod-name-tooltip" depends="" side="BOTH">
+			<Curse project="mod-name-tooltip" file="2486868" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6dda75b858fc93e2d18ccd42585aec03</MD5>
+		</Module>
+		<Module name="modtweaker" id="modtweaker" depends="" side="BOTH">
+			<Curse project="modtweaker" file="2548987" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>78ad0aaed20060bf8bf72ca6bd674834</MD5>
+		</Module>
+		<Module name="morpheus" id="morpheus" depends="" side="BOTH">
+			<Curse project="morpheus" file="2432272" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6beb6c9b45a6526106f728ec35508a0c</MD5>
+		</Module>
+<!-- optional
+		<Module name="mouse-tweaks" id="mouse-tweaks" depends="" side="BOTH">
+			<Curse project="mouse-tweaks" file="2462627" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>34343a214952bd0631e7692b1bf6e586</MD5>
+		</Module>
+-->
+		<Module name="mtlib" id="mtlib" depends="" side="BOTH">
+			<Curse project="mtlib" file="2539950" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4034d1d2f4b3d6cf3b3f0799594ca6bc</MD5>
+		</Module>
+		<Module name="multistorage" id="multistorage" depends="" side="BOTH">
+			<Curse project="multistorage" file="2537401" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8c2860524ecb59165d6e2e72f355d4f7</MD5>
+		</Module>
+		<Module name="mystical-agriculture" id="mystical-agriculture" depends="" side="BOTH">
+			<Curse project="mystical-agriculture" file="2547508" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fc9789d50c435fe22467fb7874c7e6d8</MD5>
+		</Module>
+		<Module name="natura" id="natura" depends="" side="BOTH">
+			<Curse project="natura" file="2519128" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0f8c9cf9490e80295556741e857c35ec</MD5>
+		</Module>
+		<Module name="netherportalfix" id="netherportalfix" depends="" side="BOTH">
+			<Curse project="netherportalfix" file="2489643" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c3a2aff88d5b46dd22a2635f403568eb</MD5>
+		</Module>
+		<Module name="not-enough-wands" id="not-enough-wands" depends="" side="BOTH">
+			<Curse project="not-enough-wands" file="2523975" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>239a68e4dfc49d6058cb7a35b360ec44</MD5>
+		</Module>
+		<Module name="opencomputers" id="opencomputers" depends="" side="BOTH">
+			<Curse project="opencomputers" file="2540146" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>45ee059c7e7a4c5ff9e9662f82a9c523</MD5>
+		</Module>
+		<Module name="ore-excavation" id="ore-excavation" depends="" side="BOTH">
+			<Curse project="ore-excavation" file="2552367" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f7f53b63a170069eda26486dee15acd2</MD5>
+		</Module>
+		<Module name="pams-harvestcraft" id="pams-harvestcraft" depends="" side="BOTH">
+			<Curse project="pams-harvestcraft" file="2545718" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9e7200fabd4f10d426bef60228572b6d</MD5>
+		</Module>
+		<Module name="psi" id="psi" depends="" side="BOTH">
+			<Curse project="psi" file="2499167" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>92aec994592bfcad6f09c810a2e9efb8</MD5>
+		</Module>
+		<Module name="ptrlib" id="ptrlib" depends="" side="BOTH">
+			<Curse project="ptrlib" file="2550083" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>50299a550a3e351defd61a2845caf9c1</MD5>
+		</Module>
+		<Module name="quantumstorage" id="quantumstorage" depends="" side="BOTH">
+			<Curse project="quantumstorage" file="2545675" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ebce379b942122561af54bfe6f51a894</MD5>
+		</Module>
+		<Module name="quark" id="quark" depends="" side="BOTH">
+			<Curse project="quark" file="2544279" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cec934de31cfa396813cd1fa4f896e15</MD5>
+		</Module>
+		<Module name="reborncore" id="reborncore" depends="" side="BOTH">
+			<Curse project="reborncore" file="2551407" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5fcf42deeee484350c72e40d2c824bb8</MD5>
+		</Module>
+		<Module name="rebornstorage" id="rebornstorage" depends="" side="BOTH">
+			<Curse project="rebornstorage" file="2528695" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7644478a0bf0cc0d1c183d7d5b9b7273</MD5>
+		</Module>
+		<Module name="redstone-arsenal" id="redstone-arsenal" depends="" side="BOTH">
+			<Curse project="redstone-arsenal" file="2549396" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a79a53890ef3cf69c1c21df85b918444</MD5>
+		</Module>
+		<Module name="redstone-flux" id="redstone-flux" depends="" side="BOTH">
+			<Curse project="redstone-flux" file="2448933" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>78bf83d17f71ea96cff66d93a6c0412a</MD5>
+		</Module>
+		<Module name="refined-storage" id="refined-storage" depends="" side="BOTH">
+			<Curse project="refined-storage" file="2538885" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bafc382c1cc4963a436aceb5b9905e47</MD5>
+		</Module>
+		<Module name="reliquary-v1-3" id="reliquary-v1-3" depends="" side="BOTH">
+			<Curse project="reliquary-v1-3" file="2550326" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a7b20b51c0ec6cc2bc8cd192f3a53a6b</MD5>
+		</Module>
+		<Module name="resource-loader" id="resource-loader" depends="" side="BOTH">
+			<Curse project="resource-loader" file="2477566" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>51141e882f96ce756b9b3d25f2acdf57</MD5>
+		</Module>
+		<Module name="rftools" id="rftools" depends="" side="BOTH">
+			<Curse project="rftools" file="2549092" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8758d1cf57c7d5edc2b66aae50a51a1c</MD5>
+		</Module>
+		<Module name="rftools-control" id="rftools-control" depends="" side="BOTH">
+			<Curse project="rftools-control" file="2541782" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>67b26a44f522db9e2bd9303024d81edc</MD5>
+		</Module>
+		<Module name="rftools-dimensions" id="rftools-dimensions" depends="" side="BOTH">
+			<Curse project="rftools-dimensions" file="2549121" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>36e03975f60353196548932b8b163751</MD5>
+		</Module>
+		<Module name="roots" id="roots" depends="" side="BOTH">
+			<Curse project="roots" file="2510836" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>35457c3d5b1e8668fd9ef4d7b93bb26f</MD5>
+		</Module>
+		<Module name="shadowfacts-forgelin" id="shadowfacts-forgelin" depends="" side="BOTH">
+			<Curse project="shadowfacts-forgelin" file="2505090" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a6a1d137f7bbbbe5f89ecb790105f268</MD5>
+		</Module>
+		<Module name="shetiphiancore" id="shetiphiancore" depends="" side="BOTH">
+			<Curse project="shetiphiancore" file="2522314" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f0b47545bb11a0663740f1044bcf8ad1</MD5>
+		</Module>
+		<Module name="simple-corn" id="simple-corn" depends="" side="BOTH">
+			<Curse project="simple-corn" file="2514701" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f3c10d289c5947a03d658ae9248245ad</MD5>
+		</Module>
+		<Module name="solar-flux-reborn" id="solar-flux-reborn" depends="" side="BOTH">
+			<Curse project="solar-flux-reborn" file="2534974" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dd7ca152f967bd34109134c31b861fc5</MD5>
+		</Module>
+		<Module name="sonar-core" id="sonar-core" depends="" side="BOTH">
+			<Curse project="sonar-core" file="2548047" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7bf5ef3f9504e65d932c78b586953118</MD5>
+		</Module>
+		<Module name="steves-carts-reborn" id="steves-carts-reborn" depends="" side="BOTH">
+			<Curse project="steves-carts-reborn" file="2539158" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1f288760d92aced1dc7eb89497d68b61</MD5>
+		</Module>
+		<Module name="storage-drawers" id="storage-drawers" depends="" side="BOTH">
+			<Curse project="storage-drawers" file="2545495" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>85e61670aa8a97002e7a382effdeac51</MD5>
+		</Module>
+		<Module name="tesla-core-lib" id="tesla-core-lib" depends="" side="BOTH">
+			<Curse project="tesla-core-lib" file="2536444" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>83449e5ccce1cb4fe95774c2e121644e</MD5>
+		</Module>
+		<Module name="the-one-probe" id="the-one-probe" depends="" side="BOTH">
+			<Curse project="the-one-probe" file="2549097" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ec0a77ddc08541135a02ecfe6755d393</MD5>
+		</Module>
+		<Module name="thermal-cultivation" id="thermal-cultivation" depends="" side="BOTH">
+			<Curse project="thermal-cultivation" file="2518223" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>52e97e8e52234618a062583be4be55e1</MD5>
+		</Module>
+		<Module name="thermal-dynamics" id="thermal-dynamics" depends="" side="BOTH">
+			<Curse project="thermal-dynamics" file="2549542" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bd2eadc09cc228becc1890d67355a319</MD5>
+		</Module>
+		<Module name="thermal-foundation" id="thermal-foundation" depends="" side="BOTH">
+			<Curse project="thermal-foundation" file="2552625" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fa1740305f3ef2d8ab91f2d9503cd24b</MD5>
+		</Module>
+		<Module name="thermal-innovation" id="thermal-innovation" depends="" side="BOTH">
+			<Curse project="thermal-innovation" file="2549439" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b2d5d52e31c40bcda9e053e055d7e3a8</MD5>
+		</Module>
+		<Module name="thermalexpansion" id="thermalexpansion" depends="" side="BOTH">
+			<Curse project="thermalexpansion" file="2552624" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8d776ad45c070a86fd320c8da80208b6</MD5>
+		</Module>
+		<Module name="tinkers-construct" id="tinkers-construct" depends="" side="BOTH">
+			<Curse project="tinkers-construct" file="2530200" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5d25cd5d624acc0f3333ea11da65252d</MD5>
+		</Module>
+		<Module name="tiny-progressions" id="tiny-progressions" depends="" side="BOTH">
+			<Curse project="tiny-progressions" file="2548908" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>14a26577b2743f14263f3b8757c2d044</MD5>
+		</Module>
+		<Module name="torchmaster" id="torchmaster" depends="" side="BOTH">
+			<Curse project="torchmaster" file="2489361" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1a48efbe62a7ddeb11bc7a5016abf377</MD5>
+		</Module>
+		<Module name="valkyrielib" id="valkyrielib" depends="" side="BOTH">
+			<Curse project="valkyrielib" file="2546308" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b6d790885c28d1ed5918117f29e35a58</MD5>
+		</Module>
+		<Module name="woot" id="woot" depends="" side="BOTH">
+			<Curse project="woot" file="2542390" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>60d031aea1bf94851a66c40db9fc9f39</MD5>
+		</Module>
+		<Module name="xnicex" id="xnicex" depends="" side="BOTH">
+			<Curse project="xnicex" file="2514040" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c701b4703e630609fa8a84cadf060758</MD5>
+		</Module>
+		<Module name="zerocore" id="zerocore" depends="" side="BOTH">
+			<Curse project="zerocore" file="2545939" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a77f87366de6a6e9c786c59c786aa8b7</MD5>
+		</Module>
+	</Server>
+</ServerPack>
