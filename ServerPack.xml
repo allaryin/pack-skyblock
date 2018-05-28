@@ -895,6 +895,7 @@
 			<ModType>Regular</ModType>
 			<MD5>09f259ab419933422f5cffc20e9df11f</MD5>
 		</Module>
+<!--
 		<Module name="inventory-tweaks" id="inventory-tweaks" depends="" side="BOTH">
 			<Curse project="inventory-tweaks" file="2514356" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -902,6 +903,7 @@
 			<ModType>Regular</ModType>
 			<MD5>30791650e1af0293a8fbc26756a0e92f</MD5>
 		</Module>
+-->
 		<Module name="iron-chests" id="iron-chests" depends="" side="BOTH">
 			<Curse project="iron-chests" file="2533664" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
