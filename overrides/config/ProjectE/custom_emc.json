@@ -1,0 +1,192 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:coal|1",
+      "emc": 32
+    },
+    {
+      "item": "OD|ingotSteel",
+      "emc": 288
+    },
+    {
+      "item": "botania:manaresource|0",
+      "emc": 256
+    },
+    {
+      "item": "botania:manaresource|2",
+      "emc": 8192
+    },
+    {
+      "item": "botania:manaresource|1",
+      "emc": 1024
+    },
+    {
+      "item": "botania:manaresource|4",
+      "emc": 9472
+    },
+    {
+      "item": "thermalfoundation:material|167",
+      "emc": 2432
+    },
+    {
+      "item": "redstonearsenal:material|32",
+      "emc": 1600
+    },
+    {
+      "item": "astralsorcery:itemcraftingcomponent|1",
+      "emc": 256
+    },
+    {
+      "item": "OD|ingotTitanium",
+      "emc": 4096
+    },
+    {
+      "item": "OD|ingotTungsten",
+      "emc": 4096
+    },
+    {
+      "item": "OD|ingotIridium",
+      "emc": 4096
+    },
+    {
+      "item": "OD|ingotDraconium",
+      "emc": 4096
+    },
+    {
+      "item": "OD|ingotChrome",
+      "emc": 4096
+    },
+    {
+      "item": "OD|ingotMithril",
+      "emc": 512
+    },
+    {
+      "item": "OD|ingotYellorium",
+      "emc": 4096
+    },
+    {
+      "item": "OD|gemApatite",
+      "emc": 128
+    },
+    {
+      "item": "OD|gemAquamarine",
+      "emc": 256
+    },
+    {
+      "item": "nuclearcraft:alloy|9",
+      "emc": 1408
+    },
+    {
+      "item": "tconstruct:ingots|5",
+      "emc": 512
+    },
+    {
+      "item": "OD|ingotZinc",
+      "emc": 256
+    },
+    {
+      "item": "OD|ingotBrass",
+      "emc": 160
+    },
+    {
+      "item": "OD|ingotConstantan",
+      "emc": 576
+    },
+    {
+      "item": "tconstruct:ingots|3",
+      "emc": 146
+    },
+    {
+      "item": "tconstruct:edible|2",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:chest|0",
+      "emc": 64
+    },
+    {
+      "item": "mekanism:ingot|3",
+      "emc": 896
+    },
+    {
+      "item": "mekanism:ingot|0",
+      "emc": 8208
+    },
+    {
+      "item": "minecraft:blaze_rod|0",
+      "emc": 192
+    },
+    {
+      "item": "projecte:item.pe_covalence_dust|0",
+      "emc": 1
+    },
+    {
+      "item": "projecte:item.pe_covalence_dust|1",
+      "emc": 8
+    },
+    {
+      "item": "projecte:item.pe_covalence_dust|2",
+      "emc": 208
+    },
+    {
+      "item": "projecte:item.pe_fuel|0",
+      "emc": 512
+    },
+    {
+      "item": "projecte:item.pe_fuel|1",
+      "emc": 2048
+    },
+    {
+      "item": "projecte:item.pe_fuel|2",
+      "emc": 8192
+    },
+    {
+      "item": "minecraft:water_bucket|0",
+      "emc": 768
+    },
+    {
+      "item": "minecraft:lava_bucket|0",
+      "emc": 832
+    },
+    {
+      "item": "enderio:item_alloy_ingot|8",
+      "emc": 417
+    },
+    {
+      "item": "evilcraft:dark_gem|0",
+      "emc": 256
+    },
+    {
+      "item": "pneumaticcraft:ingot_iron_compressed|0",
+      "emc": 256
+    },
+    {
+      "item": "OD|ingotUranium",
+      "emc": 4096
+    },
+    {
+      "item": "OD|ingotDesh",
+      "emc": 4096
+    },
+    {
+      "item": "galacticraftcore:item_basic_moon|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:knightmetal_ingot|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:fiery_ingot|0",
+      "emc": 2048
+    },
+    {
+      "item": "twilightforest:steeleaf_ingot|0",
+      "emc": 256
+    },
+    {
+      "item": "twilightforest:ironwood_ingot|0",
+      "emc": 256
+    }
+  ]
+}

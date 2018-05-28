@@ -21,7 +21,7 @@
 		    <URL priority='1'>https://raw.githubusercontent.com/allaryin/pack-skyblock/master/overrides.zip</URL>
 		    <Required>true</Required>
 		    <ModType inRoot="true">Extract</ModType>
-		    <MD5>b54c0f59f9f0326fe71c5fc1842afaf8</MD5> <!-- auto:overrides.zip -->
+		    <MD5>a0b284f7d9898d3cc7ed5e06082f779f</MD5> <!-- auto:overrides.zip -->
 		</Module>
 
 		<!-- additions -->
